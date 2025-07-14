@@ -1,0 +1,13 @@
+{
+  "name": "horsey",
+  "task_type": "binclass",
+  "header": "infer",
+  "column_names": ["race_date", "track_code", "track_name", "race_number", "race_type", "race_purse", "distance", "distance_unit", "course_id", "course_desc", "course_surface", "class_rating", "track_conditions", "weather", "start_desc", "runup_distance", "rail_distance", "sealed", "fraction_1", "fraction_2", "fraction_3", "fraction_4", "fraction_5", "win_time", "pace_call_1", "pace_call_2", "pace_call_final", "par_time", "footnotes", "horse_name", "jockey_first_name", "jockey_last_name", "jockey_weight", "horse_age", "sex_code", "sex_desc", "last_pp_track_code", "last_pp_track_name", "last_pp_race_date", "last_pp_race_number", "last_pp_race_finish", "meds", "equip", "dollar_odds", "program_number", "post_position", "start_position", "point_of_call_1_position", "point_of_call_1_lengths", "point_of_call_2_position", "point_of_call_2_lengths", "point_of_call_3_position", "point_of_call_3_lengths", "point_of_call_4_position", "point_of_call_4_lengths", "point_of_call_5_position", "point_of_call_5_lengths", "point_of_call_final_position", "point_of_call_final_lengths", "official_final_position", "speed_rating", "jockey_type", "trainer_first_name", "trainer_last_name", "trainer_type", "owner_full_name", "comment", "jockey_full_name", "target"],
+  "num_col_idx": [3, 5, 6, 11, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 32, 33, 39, 40, 43, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
+  "cat_col_idx": [1, 2, 4, 7, 8, 9, 10, 12, 13, 14, 17, 28, 29, 30, 31, 34, 35, 36, 37, 41, 42, 44, 61, 62, 63, 64, 65, 66, 67],
+  "target_col_idx": [68],
+  "file_type": "csv",
+  "data_path": "data/horsey/horsey.csv",
+  "test_path": null,
+  "val_path": null
+}
