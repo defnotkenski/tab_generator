@@ -1,15 +1,5 @@
 **/__pycache__/**
-*.pyc
-
-data/*
-!/data/Info/
-
-wandb/
-synthetic/
-impute/
-workspace/
-debug/
-tabdiff/result/
+*.pyx
 
 **/ckpt/*
 
