@@ -1,8 +1,15 @@
 **/__pycache__/**
-*.pyx
+*.pyc
+
+wandb/
+synthetic/
+impute/
+workspace/
+debug/
+tabdiff/result/
 
 **/ckpt/*
 
-.idea
+.idea/
 data/horsey/*
 venv/
