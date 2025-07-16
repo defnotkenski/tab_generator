@@ -331,18 +331,18 @@ def train_val_test_split(data_df, cat_columns, num_train = 0, num_test = 0):
         test_df = data_df.loc[test_idx]
 
         # Skip categorical check
-        break
+        # break
 
-        # flag = 0
-        # for i in cat_columns:
-        #     if len(set(train_df[i])) != len(set(data_df[i])):
-        #         flag = 1
-        #         break
-        #
-        # if flag == 0:
-        #     break
-        # else:
-        #     seed += 1
+        flag = 0
+        for i in cat_columns:
+            if len(set(train_df[i])) != len(set(data_df[i])):
+                flag = 1
+                break
+        
+        if flag == 0:
+            break
+        else:
+            seed += 1
         
     return train_df, test_df, seed    
 

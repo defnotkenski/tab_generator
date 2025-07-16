@@ -435,13 +435,13 @@ class Trainer:
                     raise NotImplementedError(f"Extra file generated during evaluations has type {type(extra)}, and code to save this type of file is not implemented")
         
         # Plot density figures
-        if plot_density:
-            img = self.metrics.plot_density(syn_df_loaded)
-            path = os.path.join(save_path, "density_plots.png")
-            img.save(path)
-            print(
-                f"The density plots are saved at {path}"
-            )
+        # if plot_density:
+            # img = self.metrics.plot_density(syn_df_loaded)
+            # path = os.path.join(save_path, "density_plots.png")
+            # img.save(path)
+            # print(
+                # f"The density plots are saved at {path}"
+            # )
         return out_metrics, extras, syn_df
         
 
