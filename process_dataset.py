@@ -429,7 +429,7 @@ def process_data(name):
         if "dcr" in name:
             num_train = int(num_data*0.5)
         else:
-            num_train = int(num_data*0.75)
+            num_train = int(num_data*0.9)
         num_test = num_data - num_train
 
         train_df, test_df, seed = train_val_test_split(data_df, cat_columns, num_train, num_test)
